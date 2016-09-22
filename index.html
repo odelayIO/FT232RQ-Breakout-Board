@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="FT232RQ-breakout-board : FT232RQ Breakout Board with Variable LDO">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>FT232RQ-breakout-board</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/odelayIO/FT232RQ-Breakout-Board">View on GitHub</a>
+
+          <h1 id="project_title">FT232RQ-breakout-board</h1>
+          <h2 id="project_tagline">FT232RQ Breakout Board with Variable LDO</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/odelayIO/FT232RQ-Breakout-Board/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/odelayIO/FT232RQ-Breakout-Board/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="ftdi-ft232rq-breakout-board-with-variable-ldo-for-vio" class="anchor" href="#ftdi-ft232rq-breakout-board-with-variable-ldo-for-vio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FTDI FT232RQ Breakout Board with Variable LDO for VIO</h1>
+
+<p><br>
+<br></p>
+
+<p><img src="http://odelay.io/projects/FTDI_FT232RQ/Layout.jpg" alt="Layout"></p>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description:</h2>
+
+<p>This is a small form factor FTDI breakout board using the FT232RQ device.  In addition this board can be capable to adjust the VIO by an on board LM317 LDO.  The board has all pins of the FTDI chip routed to either a header pin or test pad while keeping the form factor below 1 square inch.</p>
+
+<p><br>
+<br></p>
+
+<h2>
+<a id="board-features" class="anchor" href="#board-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Board Features:</h2>
+
+<ul>
+<li>  On board LDO to adjust the VIO of the UART signals</li>
+<li>  Route the RTS and DTR to a header, so they could be used to configure microcontrollers directly (e.g. CC430F5137 chip)</li>
+<li>  Small form factor</li>
+</ul>
+
+<p><br>
+<br></p>
+
+<h2>
+<a id="documents" class="anchor" href="#documents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documents:</h2>
+
+<p>Eagle_SCH_BRD_GERBER : Schematic, Layout and Gerber files
+FTDI_EEPROM_Configuration.xml : Configuration file used to configure the FT232RQ device
+Verify_Serial_Communications.py : Simple Python script to test the serial communications between a reference USB design and the Unit Under Test (UUT)</p>
+
+<p><br>
+<br></p>
+
+<h2>
+<a id="parts-list" class="anchor" href="#parts-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Parts List</h2>
+
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Part Number</th>
+<th>Unit Price</th>
+<th>Notes</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USB Mini Connector</td>
+<td>151-1206-1-ND</td>
+<td>$6.55</td>
+<td>10 Connectors</td>
+<td><a href="http://www.digikey.com/product-detail/en/edac-inc/690-005-299-043/151-1206-1-ND/4312192">http://www.digikey.com/product-detail/en/edac-inc/690-005-299-043/151-1206-1-ND/4312192</a></td>
+</tr>
+<tr>
+<td>FTDI FT232RQ</td>
+<td>768-1008-1-ND</td>
+<td>$4.50</td>
+<td>1</td>
+<td><a href="http://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RQ-REEL/768-1008-1-ND/1836403">http://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RQ-REEL/768-1008-1-ND/1836403</a></td>
+</tr>
+<tr>
+<td>LM317</td>
+<td>768-1008-1-ND</td>
+<td>$0.77</td>
+<td>In stock</td>
+<td><a href="http://www.digikey.com/product-detail/en/texas-instruments/LM317DCYR/296-12602-1-ND/443738">http://www.digikey.com/product-detail/en/texas-instruments/LM317DCYR/296-12602-1-ND/443738</a></td>
+</tr>
+<tr>
+<td>0.1uF, 0402, Cap</td>
+<td>490-6328-1-ND</td>
+<td>$0.55</td>
+<td>100 capacitor</td>
+<td><a href="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM155R71C104KA88J/490-6328-1-ND/3845525</a></td>
+</tr>
+<tr>
+<td>10uF, 0805, Cap</td>
+<td>1276-6456-1-ND</td>
+<td>$0.78</td>
+<td>10 capacitor</td>
+<td><a href="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KPFNNNG/1276-6456-1-ND/5958084">http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KPFNNNG/1276-6456-1-ND/5958084</a></td>
+</tr>
+<tr>
+<td>143 ohm, 0402</td>
+<td>YAG2980CT-ND</td>
+<td>$0.48</td>
+<td>100 resistors</td>
+<td><a href="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07143RL/YAG2980CT-ND/5281845">http://www.digikey.com/product-detail/en/yageo/RC0402FR-07143RL/YAG2980CT-ND/5281845</a></td>
+</tr>
+<tr>
+<td>240 ohm, 0402</td>
+<td>311-240JRCT-ND</td>
+<td>$0.47</td>
+<td>100 resistors</td>
+<td><a href="http://www.digikey.com/product-detail/en/yageo/RC0402JR-07240RL/311-240JRCT-ND/729393">http://www.digikey.com/product-detail/en/yageo/RC0402JR-07240RL/311-240JRCT-ND/729393</a></td>
+</tr>
+<tr>
+<td>392 ohm, 0402</td>
+<td>YAG3145CT-ND</td>
+<td>$0.48</td>
+<td>100 resistors</td>
+<td><a href="http://www.digikey.com/product-detail/en/yageo/RC0402FR-07392RL/YAG3145CT-ND/5282010">http://www.digikey.com/product-detail/en/yageo/RC0402FR-07392RL/YAG3145CT-ND/5282010</a></td>
+</tr>
+<tr>
+<td>1k ohm, 0402</td>
+<td>311-1.0KJRCT-ND</td>
+<td>$0.47</td>
+<td>100 resistors</td>
+<td><a href="http://www.digikey.com/product-detail/en/yageo/RC0402JR-071KL/311-1.0KJRCT-ND/729355">http://www.digikey.com/product-detail/en/yageo/RC0402JR-071KL/311-1.0KJRCT-ND/729355</a></td>
+</tr>
+<tr>
+<td>Red LED</td>
+<td>SML-D12V1WT86CT-ND</td>
+<td>$1.71</td>
+<td>10 LEDs</td>
+<td><a href="http://www.digikey.com/product-detail/en/rohm-semiconductor/SML-D12V1WT86/SML-D12V1WT86CT-ND/5843857">http://www.digikey.com/product-detail/en/rohm-semiconductor/SML-D12V1WT86/SML-D12V1WT86CT-ND/5843857</a></td>
+</tr>
+<tr>
+<td>Yellow/Green LED</td>
+<td>SML-D12M1WT86CT-ND</td>
+<td>$1.71</td>
+<td>10 LEDs</td>
+<td><a href="http://www.digikey.com/product-detail/en/rohm-semiconductor/SML-D12M1WT86/SML-D12M1WT86CT-ND/5843861">http://www.digikey.com/product-detail/en/rohm-semiconductor/SML-D12M1WT86/SML-D12M1WT86CT-ND/5843861</a></td>
+</tr>
+<tr>
+<td>PCB Fab</td>
+<td>2 layer prototype</td>
+<td>$5.00</td>
+<td>3 copies</td>
+<td><a href="http://docs.oshpark.com/services/two-layer/">http://docs.oshpark.com/services/two-layer/</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><br>
+<br></p>
+
+<h2>
+<a id="additional-information" class="anchor" href="#additional-information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional Information:</h2>
+
+<ul>
+<li>Fab board at <a href="https://oshpark.com/">https://oshpark.com/</a>
+
+<ul>
+<li>Gerber Zip Package is ready for fab</li>
+<li>Gerber Zip Package is ready for fab</li>
+</ul>
+</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">FT232RQ-breakout-board maintained by <a href="https://github.com/odelayIO">odelayIO</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
