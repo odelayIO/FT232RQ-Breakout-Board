@@ -26,7 +26,7 @@ This is a small form factor FTDI breakout board using the FT232RQ device.  In ad
 ## Documents:
 
 - Eagle_SCH_BRD_GERBER : Schematic, Layout and Gerber files
-F- TDI_EEPROM_Configuration.xml : Configuration file used to configure the FT232RQ device
+- FTDI_EEPROM_Configuration.xml : Configuration file used to configure the FT232RQ device
 - Verify_Serial_Communications.py : Simple Python script to test the serial communications between a reference USB design and the Unit Under Test (UUT)
 
 <br>
