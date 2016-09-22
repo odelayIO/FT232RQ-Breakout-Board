@@ -1,7 +1,7 @@
-##### View on [gh-page](http://odelayio.github.io/FT232RQ_Breakout_Board
+##### View on [gh-page](https://odelayio.github.io/FT232RQ-Breakout-Board/)
 
    
-# FTDI FT232RQ Breakout Board with LDO for VIO
+# FTDI FT232RQ Breakout Board with Variable LDO for VIO
 <br>
 <br>
 
@@ -11,15 +11,17 @@
 ## Description:
 This is a small form factor FTDI breakout board using the FT232RQ device.  In addition this board can be capable to adjust the VIO by an on board LM317 LDO.  The board has all pins of the FTDI chip routed to either a header pin or test pad while keeping the form factor below 1 square inch.
 
+<br>
+<br>
 
-
-### Board Features:
+## Board Features:
 
 -	On board LDO to adjust the VIO of the UART signals
 -	Route the RTS and DTR to a header, so they could be used to configure microcontrollers directly (e.g. CC430F5137 chip)
 -	Small form factor
 
-
+<br>
+<br>
 
 ## Documents:
 
@@ -27,7 +29,8 @@ Eagle_SCH_BRD_GERBER : Schematic, Layout and Gerber files
 FTDI_EEPROM_Configuration.xml : Configuration file used to configure the FT232RQ device
 Verify_Serial_Communications.py : Simple Python script to test the serial communications between a reference USB design and the Unit Under Test (UUT)
 
-
+<br>
+<br>
 
 ## Parts List
 
@@ -46,14 +49,9 @@ Verify_Serial_Communications.py : Simple Python script to test the serial commun
 | Yellow/Green LED   | SML-D12M1WT86CT-ND | $1.71      | 10 LEDs       | http://www.digikey.com/product-detail/en/rohm-semiconductor/SML-D12M1WT86/SML-D12M1WT86CT-ND/5843861                         |
 | PCB Fab            | 2 layer prototype  | $5.00      | 3 copies      | http://docs.oshpark.com/services/two-layer/                                                                                  |
 |                    |                    |            |               |                                                                                                                              |
-|                    |                    |            |               |                                                                                                                              |
-|                    |                    |            |               |                                                                                                                              |
-|                    |                    |            |               |                                                                                                                              |
-|                    |                    |            |               |                                                                                                                              |
-|                    |                    |            |               |                                                                                                                              |
-|                    |                    |            |               |                                                                                                                              |
 
-
+<br>
+<br>
 
 ## Additional Information:
 - Fab board at [https://oshpark.com/](https://oshpark.com/)
