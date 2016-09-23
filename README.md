@@ -10,6 +10,7 @@
 -	Configurable VCCIO between 1.8V to 5V using on-board LDO
 -	Data Rate Max 3,000,000 BAUD (FTDI FT232R Chip)
 -	Route the RTS and DTR to a header for easy mode as a Programmer
+- TX and RX LED (Red/Green)
 -	Small form factor
 
 <br>
