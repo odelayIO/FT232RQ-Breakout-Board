@@ -2,9 +2,7 @@
 
    
 # FTDI FT232RQ Breakout Board with Variable LDO for VIO
-![Layout](http://odelay.io/projects/FTDI_FT232RQ/Layout.jpg)
-![Layout](http://odelay.io/projects/FTDI_FT232RQ/fab.jpg)
-<br>
+
 
 ## Board Features:
 
@@ -14,6 +12,13 @@
 -	Route the RTS and DTR to a header for easy mode as a Programmer
 -	Small form factor
 
+<br>
+<br>
+![Layout](http://odelay.io/projects/FTDI_FT232RQ/Layout.jpg)
+![Layout](http://odelay.io/projects/FTDI_FT232RQ/fab.jpg)
+
+<br>
+<br>
    
 ## Reflowing QFN-32 FTDI FT232RQ Chip:
 
