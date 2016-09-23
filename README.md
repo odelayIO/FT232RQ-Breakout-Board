@@ -5,29 +5,45 @@
 <br>
 <br>
 
-![Layout](http://odelay.io/projects/FTDI_FT232RQ/Layout.jpg)
-
-   
-## Description:
-This is a small form factor FTDI breakout board using the FT232RQ device.  In addition this board can be capable to adjust the VIO by an on board LM317 LDO.  The board has all pins of the FTDI chip routed to either a header pin or test pad while keeping the form factor below 1 square inch.
-
-<br>
-<br>
-
 ## Board Features:
 
--	On board LDO to adjust the VIO of the UART signals
--	Route the RTS and DTR to a header, so they could be used to configure microcontrollers directly (e.g. CC430F5137 chip)
+- Capability to configure microcontrollers directly (e.g. CC430F5137) 
+-	Configurable VCCIO between 1.8V to 5V using on-board LDO
+-	Data Rate Max 3,000,000 BAUD (FTDI FT232R Chip)
+-	Route the RTS and DTR to a header for easy mode as a Programmer
 -	Small form factor
+
+## Final PCB:
+![Layout](http://odelay.io/projects/FTDI_FT232RQ/Layout.jpg)
+![Layout](http://odelay.io/projects/FTDI_FT232RQ/fab.jpg)
+
+   
+## Reflowing QFN-32 FTDI FT232RQ Chip:
+
+First attempt to reflow a QFN-32 device to a board without purchasing expensive equipment.  I used a hot air gun that I purchased on Amazon for $14 ( TruePower 01-0712 Mini Heat Gun, Blue).  I also used solder paste that melts at 183C degrees.  
+
+Applied the solder paste:
+![Paste](http://odelay.io/projects/FTDI_FT232RQ/solder_paste.jpg)
+
+
+Placed QFN-32 Device
+![Placed](http://odelay.io/projects/FTDI_FT232RQ/pre_reflow.jpg)
+
+
+Final Product being used to configure a CC430F5137 microcontroller
+![Layout](http://odelay.io/projects/FTDI_FT232RQ/prog.jpg)
 
 <br>
 <br>
 
 ## Documents:
 
-- Eagle_SCH_BRD_GERBER : Schematic, Layout and Gerber files
-- FTDI_EEPROM_Configuration.xml : Configuration file used to configure the FT232RQ device
-- Verify_Serial_Communications.py : Simple Python script to test the serial communications between a reference USB design and the Unit Under Test (UUT)
+- Eagle_SCH_BRD_GERBER 
+  * Schematic, Layout and Gerber files
+-FTDI_EEPROM_Configuration.xml
+  * Configuration file used to configure the FT232RQ device
+-Verify_Serial_Communications.py 
+  * Simple Python script to test the serial communications between a reference USB design and the Unit Under Test (UUT)
 
 <br>
 <br>
@@ -55,6 +71,6 @@ This is a small form factor FTDI breakout board using the FT232RQ device.  In ad
 
 ## Additional Information:
 - Fab board at [https://oshpark.com/](https://oshpark.com/)
-  - Gerber Zip Package is ready for fab
-  - Gerber Zip Package is ready for fab
+  - Gerber Zip Package was used to fab board
+
 
