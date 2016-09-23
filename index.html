@@ -34,27 +34,47 @@
         <h1>
 <a id="ftdi-ft232rq-breakout-board-with-variable-ldo-for-vio" class="anchor" href="#ftdi-ft232rq-breakout-board-with-variable-ldo-for-vio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FTDI FT232RQ Breakout Board with Variable LDO for VIO</h1>
 
-<p><br>
-<br></p>
-
-<p><img src="http://odelay.io/projects/FTDI_FT232RQ/Layout.jpg" alt="Layout"></p>
-
-<h2>
-<a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description:</h2>
-
-<p>This is a small form factor FTDI breakout board using the FT232RQ device.  In addition this board can be capable to adjust the VIO by an on board LM317 LDO.  The board has all pins of the FTDI chip routed to either a header pin or test pad while keeping the form factor below 1 square inch.</p>
-
-<p><br>
-<br></p>
-
 <h2>
 <a id="board-features" class="anchor" href="#board-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Board Features:</h2>
 
 <ul>
-<li>  On board LDO to adjust the VIO of the UART signals</li>
-<li>  Route the RTS and DTR to a header, so they could be used to configure microcontrollers directly (e.g. CC430F5137 chip)</li>
+<li>Capability to configure microcontrollers directly (e.g. CC430F5137) </li>
+<li>  Configurable VCCIO between 1.8V to 5V using on-board LDO</li>
+<li>  Data Rate Max 3,000,000 BAUD (FTDI FT232R Chip)</li>
+<li>  Route the RTS and DTR to a header for easy mode as a Programmer</li>
+<li>TX and RX LED (Red/Green)</li>
 <li>  Small form factor</li>
 </ul>
+
+<p><br>
+<br>
+<img src="http://odelay.io/projects/FTDI_FT232RQ/Layout.jpg" alt="Layout">
+<img src="http://odelay.io/projects/FTDI_FT232RQ/fab.jpg" alt="Layout"></p>
+
+<p><br>
+<br></p>
+
+<h2>
+<a id="reflowing-qfn-32-ftdi-ft232rq-chip" class="anchor" href="#reflowing-qfn-32-ftdi-ft232rq-chip" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reflowing QFN-32 FTDI FT232RQ Chip:</h2>
+
+<p>First attempt to reflow a QFN-32 device to a board without purchasing expensive equipment.  I used a hot air gun that I purchased on Amazon for $14 ( TruePower 01-0712 Mini Heat Gun, Blue).  I also used solder paste that melts at 183C degrees.  </p>
+
+<h3>
+<a id="applied-the-solder-paste" class="anchor" href="#applied-the-solder-paste" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Applied the solder paste:</h3>
+
+<p><img src="http://odelay.io/projects/FTDI_FT232RQ/solder_paste.jpg" alt="Paste">
+<br></p>
+
+<h3>
+<a id="placed-qfn-32-device" class="anchor" href="#placed-qfn-32-device" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Placed QFN-32 Device</h3>
+
+<p><img src="http://odelay.io/projects/FTDI_FT232RQ/pre_reflow.jpg" alt="Placed">
+<br></p>
+
+<h3>
+<a id="final-product-being-used-to-configure-a-cc430f5137-microcontroller" class="anchor" href="#final-product-being-used-to-configure-a-cc430f5137-microcontroller" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Final Product being used to configure a CC430F5137 microcontroller</h3>
+
+<p><img src="http://odelay.io/projects/FTDI_FT232RQ/prog.jpg" alt="Layout"></p>
 
 <p><br>
 <br></p>
@@ -62,9 +82,26 @@
 <h2>
 <a id="documents" class="anchor" href="#documents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documents:</h2>
 
-<p>Eagle_SCH_BRD_GERBER : Schematic, Layout and Gerber files
-FTDI_EEPROM_Configuration.xml : Configuration file used to configure the FT232RQ device
-Verify_Serial_Communications.py : Simple Python script to test the serial communications between a reference USB design and the Unit Under Test (UUT)</p>
+<ul>
+<li>Eagle_SCH_BRD_GERBER
+
+<ul>
+<li>Schematic, Layout and Gerber files</li>
+</ul>
+</li>
+<li>FTDI_EEPROM_Configuration.xml
+
+<ul>
+<li>Configuration file used to configure the FT232RQ device</li>
+</ul>
+</li>
+<li>Verify_Serial_Communications.py 
+
+<ul>
+<li>Simple Python script to test the serial communications between a reference USB design and the Unit Under Test (UUT)</li>
+</ul>
+</li>
+</ul>
 
 <p><br>
 <br></p>
@@ -187,8 +224,7 @@ Verify_Serial_Communications.py : Simple Python script to test the serial commun
 <li>Fab board at <a href="https://oshpark.com/">https://oshpark.com/</a>
 
 <ul>
-<li>Gerber Zip Package is ready for fab</li>
-<li>Gerber Zip Package is ready for fab</li>
+<li>Gerber Zip Package was used to fab board</li>
 </ul>
 </li>
 </ul>
