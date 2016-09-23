@@ -24,15 +24,17 @@
 
 First attempt to reflow a QFN-32 device to a board without purchasing expensive equipment.  I used a hot air gun that I purchased on Amazon for $14 ( TruePower 01-0712 Mini Heat Gun, Blue).  I also used solder paste that melts at 183C degrees.  
 
-Applied the solder paste:
+###Applied the solder paste:
 ![Paste](http://odelay.io/projects/FTDI_FT232RQ/solder_paste.jpg)
+<br>
 
 
-Placed QFN-32 Device
+###Placed QFN-32 Device
 ![Placed](http://odelay.io/projects/FTDI_FT232RQ/pre_reflow.jpg)
+<br>
 
 
-Final Product being used to configure a CC430F5137 microcontroller
+###Final Product being used to configure a CC430F5137 microcontroller
 ![Layout](http://odelay.io/projects/FTDI_FT232RQ/prog.jpg)
 
 <br>
