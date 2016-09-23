@@ -2,7 +2,8 @@
 
    
 # FTDI FT232RQ Breakout Board with Variable LDO for VIO
-<br>
+![Layout](http://odelay.io/projects/FTDI_FT232RQ/Layout.jpg)
+![Layout](http://odelay.io/projects/FTDI_FT232RQ/fab.jpg)
 <br>
 
 ## Board Features:
@@ -12,10 +13,6 @@
 -	Data Rate Max 3,000,000 BAUD (FTDI FT232R Chip)
 -	Route the RTS and DTR to a header for easy mode as a Programmer
 -	Small form factor
-
-## Final PCB:
-![Layout](http://odelay.io/projects/FTDI_FT232RQ/Layout.jpg)
-![Layout](http://odelay.io/projects/FTDI_FT232RQ/fab.jpg)
 
    
 ## Reflowing QFN-32 FTDI FT232RQ Chip:
@@ -72,5 +69,4 @@ Final Product being used to configure a CC430F5137 microcontroller
 ## Additional Information:
 - Fab board at [https://oshpark.com/](https://oshpark.com/)
   - Gerber Zip Package was used to fab board
-
 
